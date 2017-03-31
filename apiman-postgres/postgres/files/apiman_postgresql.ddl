@@ -241,7 +241,7 @@ CREATE INDEX IDX_FK_applications_1 ON applications (organizationId);
 
 CREATE TABLE application_versions (
     id bigint NOT NULL,
-    createdBy character varying(255) NOT NULL,
+    created_by character varying(255) NOT NULL,
     createdon timestamp without time zone NOT NULL,
     modifiedBy character varying(255) NOT NULL,
     modifiedOn timestamp without time zone NOT NULL,
